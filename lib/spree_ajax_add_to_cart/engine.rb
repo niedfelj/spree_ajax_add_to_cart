@@ -1,9 +1,8 @@
 module SpreeAjaxAddToCart
   class Engine < Rails::Engine
-    engine_name 'spree_ajax_add_to_cart'
+    require 'spree/core'
     isolate_namespace Spree
-
-    config.autoload_paths += %W(#{config.root}/lib)
+    engine_name 'spree_ajax_add_to_cart'
 
     # use rspec for tests
     config.generators do |g|
