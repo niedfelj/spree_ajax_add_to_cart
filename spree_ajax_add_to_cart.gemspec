@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_ajax_add_to_cart'
-  s.version     = '3.1.0'
+  s.version     = '3.2.0'
   s.summary     = 'Spree AJAX Add to Cart extension'
   s.description = 'When the user adds an item to the cart the system will make an Ajax call to add the item to the cart. Once the item has been added the cart details in the header is updated and an alert box displayed informing the user that the item was added.'
   s.required_ruby_version = '>= 1.9.3'
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~>3.1.0'
+  s.add_dependency 'spree_core', '~>3.2.0'
 
   s.add_development_dependency 'capybara', '~> 2.4'
 
